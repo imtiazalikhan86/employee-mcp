@@ -1,0 +1,29 @@
+{
+  "name": "employee-mcp-learning",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "nodemon src/server.js",
+    "mcp": "node src/mcp/index.js",
+    "mcp:client": "node src/client/mcp.client.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "type": "module",
+  "dependencies": {
+    "@modelcontextprotocol/client": "^2.3.1",
+    "@modelcontextprotocol/server": "^2.3.0",
+    "cors": "^2.8.6",
+    "dotenv": "^18.0.5",
+    "express": "^5.2.1",
+    "mongodb": "^7.7.0",
+    "reflect-metadata": "^0.2.2",
+    "zod": "^4.6.5"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.14"
+  }
+}
